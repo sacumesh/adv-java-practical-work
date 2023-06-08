@@ -1,0 +1,51 @@
+/home/sachiththa/.jdks/corretto-11.0.18/bin/java -Dmaven.multiModuleProjectDirectory=/home/sachiththa/Desktop/epita/adv-java/professor/2022f-advanced-java/sachiththa-bandaranayake-adv-java -Djansi.passthrough=true -Dmaven.home=/snap/intellij-idea-community/434/plugins/maven/lib/maven3 -Dclassworlds.conf=/snap/intellij-idea-community/434/plugins/maven/lib/maven3/bin/m2.conf -Dmaven.ext.class.path=/snap/intellij-idea-community/434/plugins/maven/lib/maven-event-listener.jar -javaagent:/snap/intellij-idea-community/434/lib/idea_rt.jar=35433:/snap/intellij-idea-community/434/bin -Dfile.encoding=UTF-8 -classpath /snap/intellij-idea-community/434/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/snap/intellij-idea-community/434/plugins/maven/lib/maven3/boot/plexus-classworlds.license org.codehaus.classworlds.Launcher -Didea.version=2023.1.2 install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -------------< fr.epita:sachiththa-bandaranayake-adv-java >-------------
+[INFO] Building sachiththa-bandaranayake-adv-java 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sachiththa-bandaranayake-adv-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sachiththa-bandaranayake-adv-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to /home/sachiththa/Desktop/epita/adv-java/professor/2022f-advanced-java/sachiththa-bandaranayake-adv-java/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sachiththa-bandaranayake-adv-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sachiththa-bandaranayake-adv-java ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/sachiththa/Desktop/epita/adv-java/professor/2022f-advanced-java/sachiththa-bandaranayake-adv-java/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sachiththa-bandaranayake-adv-java ---
+[INFO] Surefire report directory: /home/sachiththa/Desktop/epita/adv-java/professor/2022f-advanced-java/sachiththa-bandaranayake-adv-java/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSer1
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ sachiththa-bandaranayake-adv-java ---
+[INFO] Building jar: /home/sachiththa/Desktop/epita/adv-java/professor/2022f-advanced-java/sachiththa-bandaranayake-adv-java/target/sachiththa-bandaranayake-adv-java-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ sachiththa-bandaranayake-adv-java ---
+[INFO] Installing /home/sachiththa/Desktop/epita/adv-java/professor/2022f-advanced-java/sachiththa-bandaranayake-adv-java/target/sachiththa-bandaranayake-adv-java-1.0-SNAPSHOT.jar to /home/sachiththa/.m2/repository/fr/epita/sachiththa-bandaranayake-adv-java/1.0-SNAPSHOT/sachiththa-bandaranayake-adv-java-1.0-SNAPSHOT.jar
+[INFO] Installing /home/sachiththa/Desktop/epita/adv-java/professor/2022f-advanced-java/sachiththa-bandaranayake-adv-java/pom.xml to /home/sachiththa/.m2/repository/fr/epita/sachiththa-bandaranayake-adv-java/1.0-SNAPSHOT/sachiththa-bandaranayake-adv-java-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.122 s
+[INFO] Finished at: 2023-06-06T10:48:56+02:00
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0
