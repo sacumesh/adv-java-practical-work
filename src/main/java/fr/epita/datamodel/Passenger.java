@@ -60,4 +60,15 @@ public class Passenger {
     public void setSurvived(Boolean survived) {
         this.survived = survived;
     }
+
+    @Override
+    public String toString() {
+        return "Passenger{" +
+                "name='" + name + '\'' +
+                ", passengerClass='" + passengerClass + '\'' +
+                ", age=" + age +
+                ", sex='" + sex + '\'' +
+                ", survived=" + survived +
+                '}';
+    }
 }

@@ -13,8 +13,9 @@ import java.util.Scanner;
 
 public class PassengerCSVDAO {
 
+    private File file;
+
     public List<Passenger> readAll() {
-        File file = new File("data.csv");
         List<Passenger> res = new ArrayList<>();
 
         try (Scanner scanner = new Scanner(file)) {
@@ -39,19 +40,22 @@ public class PassengerCSVDAO {
             e.printStackTrace();
         }
 
-        // sort passengers by passenger class
-        if(!res.isEmpty()) {
-            res.sort(new Comparator<Passenger>() {
-                @Override
-                public int compare(Passenger o1, Passenger o2) {
-                    return o1.getPassengerClass().compareTo(o2.getPassengerClass());
-                }
-            });
-        }
-
         return res;
     }
 
+    // sort passengers by passenger class
+    public void sortByPassengerClass(List<Passenger> passengers) {
+        passengers.sort(new Comparator<Passenger>() {
+            @Override
+            public int compare(Passenger o1, Passenger o2) {
+                return o1.getPassengerClass().compareTo(o2.getPassengerClass());
+            }
+        });
+
+    }
 
 
+    public void setFile(File file) {
+        this.file = file;
+    }
 }
